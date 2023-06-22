@@ -1,0 +1,12 @@
+{
+  "name": "GoProject",
+  "dockerComposeFile": [
+    "./docker-compose.yml"
+  ],
+  "service": "dev",
+  "settings": {},
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "remoteUser": "user",
+  "workspaceMount": "source=${localWorkspaceFolder}/sub-folder,target=/workspace,type=bind"
+}
